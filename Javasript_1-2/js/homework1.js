@@ -3,14 +3,33 @@ var base = prompt("Enter the value");
 var exponent = prompt ("Enter the power value");
 
 function myFunction() {
-    var a = Math.pow(base, exponent);
-    // document.getElementById("demo").innerHTML = a;
-    console.log('a', a);
-};
+    alert(Math.pow(base, exponent));
+  };
 
+ myFunction();
 
 
      // Part 2
+// var names = [];
+//
+// for (var i = 0; i < 5; i++) {
+// names.push(prompt("Enter some name"));
+// alert(names);
+// };
+//
+// var userName = prompt("Please, enter your username");
+// for (var i = 0; i < names.length; i++) {
+//   if (userName = names[i]) {
+//      alert('Welcome' + ', ' + userName);
+//       } else {
+//       alert('Error');
+//       };
+//
+// };
+
+      // Part 2
+
+
 var names = [];
 
 for (var i = 0; i < 5; i++) {
