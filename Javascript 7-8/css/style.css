@@ -1,0 +1,77 @@
+
+body {
+background-image: url(../img/Lighthouse.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+                      /* forms */
+.registration {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+span {
+  margin-left: 25px;
+  display: none;
+  color: white;
+  font-weight: bolder;
+}
+
+                       /* tabs */
+.tabs {
+  display: inline-block;
+}
+
+.tab-links:after {
+  display: block;
+  clear: both;
+  content: '';
+  }
+
+.tab-links li {
+
+  float: left;
+  position: relative;
+  cursor: pointer;
+  list-style: none;
+}
+
+.tab-links a {
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  border: 1px solid white;
+  transition: all linear 0.15s;
+}
+
+.tab-links a:hover{
+  background: #5D6D7E;
+  text-decoration: none;
+}
+
+ li.active a, li.active a:hover {
+   background: #85929E;
+ }
+                    /*tabs content */
+.tab-content {
+  padding: 15px;
+}
+
+.tab {
+ color: white;
+ font-size: 20px;
+ display: none;
+}
+
+.tab.active {
+  display: block;
+}
