@@ -22,7 +22,7 @@ body {
 
 .upper-menu {
   position: relative;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-  margin-right: 52px;
+  margin-right: 4%;
   width: 28%;
   float: left;
   padding-top: 5%;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .main-nav_item {
-  margin-left: 5.5%;
+  margin-left: 5.4%;
   float: left;;
 }
 
@@ -81,12 +81,12 @@ h1 {
   text-decoration: underline;
 }
 
-overlay {
+/*overlay {
   background: url(../img/overlay.png);
   background-repeat: no-repeat;
   background-size: 100% 50%;
   background-position: center;
-}
+}*/
 .promo {
   /*position: relative;
   overflow: hidden;*/
@@ -94,13 +94,13 @@ overlay {
 }
 
 .promo_ad {
-  margin-top: 26%;
+  margin-top: 27%;
   width: 53%;
   float: left;
 }
 
 h2 {
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   color: #fefefe;
   font-family: 'League Gothic', Tahoma, sans-serif;
   font-size: 60px;
@@ -132,7 +132,7 @@ h3 {
 
 .promo-pic_1 {
   position: absolute;
-  padding-top: 16%;
+  padding-top: 21%;
   padding-left: 25%;
   width: 23%;
   height: auto;
@@ -140,14 +140,14 @@ h3 {
 
 .promo-pic_2 {
   position: absolute;
-  padding-left: 41%;
+  padding-left: 43%;
   width: 43%;
   height: auto;
 }
 
 .promo-pic_3 {
   position: absolute;
-  padding: 32% 0 0 54%;
+  padding: 32% 0 0 55%;
   width: 17%auto;
   height: auto;
 }
@@ -162,6 +162,7 @@ h3 {
 }
 
 .purple {
+  position: relative;
   width: 100%;
   height: 339px;
   background: #5e5e5e; /* Old browsers */
@@ -174,9 +175,9 @@ border-bottom: 1px solid #0d151b;
 }
 
 .info {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 80px;
 }
 
 .info_block1 {
@@ -221,7 +222,7 @@ h4 {
 }
 
 .info_link {
-  margin-left: 61%;
+  margin-left: 71%;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -230,16 +231,17 @@ h4 {
   font-family: 'League Gothic', Tahoma, sans-serif;
 }
 .info_link:hover {
-  box-shadow: 0 0 10px;
+  text-shadow: 1px 1px 14px white;
 }
                               /*   WHITE   */
 .white {
+  position: relative;
   height: 608px;
   background-color: #f9f9f9;
 }
 
 .articles {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -347,8 +349,13 @@ h5 {
 }
 
  .logos {
-width: 960px;
+max-width: 960px;
 margin: 0 auto;
+ }
+
+ .logos img {
+   max-width: 100%;
+   height: auto;
  }
 
    .logos_image1 {
@@ -390,7 +397,7 @@ margin: 0 auto;
 }
 
 .sections {
-  padding-top: 7%;
+  padding-top: 100px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -448,7 +455,7 @@ margin: 0 auto;
   top: 3%
   position: relative;
   overflow: hidden;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 

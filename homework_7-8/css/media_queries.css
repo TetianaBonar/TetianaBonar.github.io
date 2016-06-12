@@ -1,10 +1,14 @@
-@media (max-width: 768px) {
+
+
+@media (max-width: 959px) {
   header {
+
     height: 798px;
     background-position: center, top center;
   }
 
   .upper-menu {
+    max-width: 768px;
     padding-top: 8%;
     width: 100%;
     margin: 0 auto;
@@ -13,8 +17,9 @@
 
 
   h1 {
-
+    margin-right: 0;
     padding-top: 1%;
+    width: 35%;
   }
 
   .main-nav {
@@ -31,7 +36,7 @@
   }
 
   .promo_ad {
-    margin-top: 23%;
+    margin-top: 24%;
     padding-left: 4%;
     width: 43%;
   }
@@ -62,12 +67,12 @@
 
    .promo-pic_3 {
      width: auto;
-     padding: 42% 0 0 58%;
+     padding: 43% 0 0 61%;
    }
 
  h2 {
    font-size: 48px;
-   padding-bottom: 3%;
+   padding-bottom: 2%;
  }
 
   h3 {
@@ -80,6 +85,7 @@
     }
 
    .info {
+     padding-top: 10%;
   width: 100%;
    }
 
@@ -118,16 +124,16 @@
    }
 
   .white {
-    height: 605px;
+    height: auto;
   }
  .articles {
-   width: 768px;
+   width: 100%;
 
  }
   .article {
     margin-top: 10%;
     margin-left: 4%;
-    width: 40%;
+    width: 42%;
     margin-bottom: 9%;
     padding-top: 1%;
   }
@@ -141,11 +147,11 @@
     padding-top: 14%;
     padding-bottom: 2%;
     padding-left: 13%;
-    width: 42%;
+    width: 35%;
   }
 
   .article_text {
-    padding: 1% 13% 17% 12%;
+    padding: 1% 13% 16% 12%;
   }
 
   .no_display-321 {
@@ -153,33 +159,33 @@
   }
 
   .update {
-    width: 48%;
+    width: 47%;
   }
 
   .update_title {
     padding-bottom: 1%;
     font-size: 30px;
-    padding-top: 19%;
+    padding-top: 20%;
   }
 
   .update-1 {
-    padding-top: 4%;
+    padding-top: 5%;
     margin-bottom: 5%;
-    padding-left: 18%;
+    padding-left: 20%;
   }
 
   .update-2 {
     margin-bottom: 5%;
-    padding-left: 18%;
+    padding-left: 20%;
   }
 
   .update-3 {
     margin-bottom: 5%;
-    padding-left: 18%;
+    padding-left: 20%;
   }
 
   .update_link {
-    margin-left: 65%;
+    margin-left: 69%;
   }
 
   .no_display {
@@ -189,6 +195,11 @@
   .articles_line {
     margin-bottom: 4%;
   }
+
+   .logos {
+     width: 100%;
+     padding-bottom: 4%;
+   }
 
   .logos_image1 {
     padding-left: 1%;
@@ -202,7 +213,7 @@
   }
 
   .grey {
-    height: 398px;
+    height: 395px;
   }
 
   .grey_title {
@@ -210,7 +221,7 @@
   }
 
   .sections {
-    padding-top: 14%;
+    padding-top: 13%;
     width: 100%;
   }
 
@@ -243,7 +254,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   header {
     height: 548px;
     background: url(../img/background-480.jpg);
@@ -253,7 +264,7 @@
   }
 
   .upper-menu {
-    width: 480px;
+    max-width: 480px;
   }
 
   .upper-menu:after {
@@ -295,7 +306,7 @@ h2 {
   }
 
   .menu-480 > li{
-
+    width: 245px;
     margin: 0 auto;
     text-align: center;
     color: #f9f9f9;
@@ -308,11 +319,13 @@ h2 {
 
     list-style: none;
     position: relative;
+    background-color: rgba(54, 41, 62, 0.8);
+    border-top: 1px solid #36283e;
+    border-bottom: 1px solid #523e5a;
   }
 
   .menu-480_home:hover .submenu {
     display: block;
-
   }
 
   .home_link {
@@ -326,10 +339,15 @@ h2 {
     text-decoration: none;
     border-bottom: #36283e;
     border-top: #523e5a;
+    text-decoration: underline;
   }
 
-  .home-link:hover {
-    background-color: rgba(54, 41, 62, 0.5);
+  .menu-480_home:hover {
+    background-color: rgba(54, 41, 62, 0.7);
+    border-top: 1px solid #36283e;
+    border-bottom: 1px solid #523e5a;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
   }
 
   .submenu {
@@ -339,18 +357,30 @@ h2 {
     text-align: center;
     top: 100%;
     left: 0;
+    z-index: 1;
+  }
+
+  .submenu li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .menu-480_link {
     display: block;
     color: white;
     text-decoration: none;
-    background-color: rgba(54, 41, 62, 0.5);
+
     font-family: 'League Gothic', Tahoma, sans-serif;
     font-size: 24px;
     line-height: 42px;
-    border-bottom: #36283e;
-    border-top: #523e5a;
+
+
+  }
+
+  .menu-480_link:hover {
+
+    border-bottom: 1px solid #edbfff;
+    background-color: rgba(54, 41, 62, 0.9);
   }
 
   .promo_ad {
@@ -367,13 +397,14 @@ h2 {
   }
 
   .promo-pic {
-    margin-top: 2%;
-    width: 45%;
+    margin-top: 3%;
+    width: 50%;
+    padding-right: 0;
   }
 
   .promo_ad {
-    margin-top: 24%;
-    padding-left: 5%;
+    margin-top: 25%;
+    width: 44%;
   }
 
   .promo-pic_1 {
@@ -384,11 +415,11 @@ h2 {
 
   .promo-pic_2 {
     padding-left: 29%;
-    width: 56%;
+    width: 59%;
   }
 
   .promo-pic_3 {
-    padding: 49% 0 0 49%;
+    padding: 46% 0 0 49%;
     width: 22%;
     height:auto;
   }
@@ -399,7 +430,7 @@ h2 {
 
   .info {
     padding-top: 17%;
-    width: 480px;
+    max-width: 480px;
   }
 
   .info_block1 {
@@ -417,7 +448,7 @@ h2 {
   }
 
   .info_link {
-    margin-left: 78%;
+    margin-left: 84%;
   }
 
   .info_block2 {
@@ -515,7 +546,7 @@ h2 {
 
 
   .logos {
-    width: 480px;
+    max-width: 480px;
     padding-top: 7%;
   }
 
@@ -579,11 +610,12 @@ h2 {
   }
 
   .footer {
-    width: 480px;
+    max-width: 480px;
   }
 
  nav {
    width: 100%;
+   clear: both;
   }
 
 .main-nav--footer {
@@ -599,7 +631,7 @@ h2 {
 }
 
   .footer_text {
-    padding-top: 4%;
+    padding-top: 2%;
     width: 100%;
     text-align: center;
   }
@@ -607,24 +639,24 @@ h2 {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 479px) {
   header {
     height: 516px;
   }
 
   .upper-menu {
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
     margin-right: 0;
   }
 
   h1 {
-    margin: 12% 0 7% 20%;
-    width: 90%;
+    margin: 13% 0 8% 20%;
+    width: 80%;
   }
 
   nav {
-    width: 94%;
+
   }
 
   .main-nav {
@@ -636,11 +668,12 @@ h2 {
   }
 
   .promo {
-    width: 320px;
+
   }
 
   .promo_ad {
     width: 98%;
+    padding-left: 0;
     margin: 0 auto;
     text-align: center;
   }
@@ -654,13 +687,13 @@ h2 {
     }
 
    .info {
-  width: 320px;
+  max-width: 320px;
   padding-top: 24%;
    }
 
    .info_block1 {
      margin-left: 7%;
-     padding-left: 15%;
+     padding-left: 18%;
      width: 70%;
    }
 
@@ -673,20 +706,19 @@ h2 {
    }
 
    .info_link {
-     margin-left: 70%;
+     margin-left: 73%;
    }
 
    .info_block2 {
      margin-top: 4%;
-     margin-left: 7%;
-     padding-left: 15%;
+     margin-left: 6%;
+     padding-left: 19%;
      width: 70%;
    }
 
    .info_block3 {
-     margin-top: 6%;
-     margin-left: 7%;
-     padding-left: 15%;
+     margin-top: 7%;
+     padding-left: 24%;
      width: 70%;
    }
 
@@ -695,7 +727,7 @@ h2 {
 
   }
   .articles {
-    width: 320px;
+    max-width: 320px;
   }
  .article {
   margin-top: 19%;
@@ -716,9 +748,9 @@ h2 {
   }
 
  .update {
-   margin-top: 6%;
+   margin-top: 7%;
    margin-bottom: 27%;
-  width: 97%;
+  width: 95%;
  }
 
  .update-1 {
@@ -739,11 +771,12 @@ h2 {
   }
 
   .logos {
-    width: 320px;
+    max-width: 320px;
   }
 
   .logos_image1 {
     padding-top: 9%;
+    padding-left: 18%;
   }
 
   .logos_image2 {
@@ -772,11 +805,11 @@ h2 {
   }
 
   .footer {
-    width: 320px;
+    max-width: 320px;
   }
 
   .footer_text {
-    margin-top: 9%;
+    margin-top: 11%;
   }
 
  .main-nav--footer {
