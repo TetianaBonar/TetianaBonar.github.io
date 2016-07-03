@@ -1,0 +1,183 @@
+@mixin position {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+$grey: #2a2d32;
+$light-grey: #8a8a8a;
+$yellow: #f4b60d;
+$blue: #248cec;
+$grey-border: #e8e8e8;
+
+@mixin font_h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@mixin title-font {
+  font-size: 24px;
+  line-height: 20px;
+}
+
+@mixin ubuntu {
+  font-family: 'Ubuntu', Arial, sans-serif;}
+
+@mixin ubuntu-med{
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 500;
+  }
+
+@mixin section_text-font {
+    line-height: 20px;
+    color: $light-grey;
+    padding-bottom: 38px;
+    font: {
+      size: 13px;
+      family: Arial, Tahoma, sans-serif;
+    }
+    }
+
+@mixin news_data {
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 500;
+}
+
+
+.articles-wrapper {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 543px;
+}
+
+ .articles {
+@include position;
+  }
+
+  .news {
+    width: 50%;
+    float: left;
+    &_title {
+      @include title-font;
+      @include ubuntu-med;
+      color: $grey;
+      padding-top: 60px;
+      padding-bottom: 40px;
+
+  }
+      }
+
+  .news_box {
+    padding-left: 195px;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 150px;
+    margin-bottom: 30px;
+      &.first {
+        background-image: url(../img/news_box_1.png);
+        position: relative;
+      }
+
+      &.second {
+        background-image: url(../img/news_box_2.png);
+        position: relative;
+      }
+      &-text {
+        @include section_text-font;
+      }
+
+  }
+
+
+  .news_data {
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    &-month {
+      padding: 14px 9px;
+      background: $blue;
+      color: white;
+      @include news_data;
+    }
+
+    &-day {
+      padding: 14px 9px;
+      background-color: $yellow;
+      color: $grey;
+      @include news_data;
+      }
+  }
+
+
+
+  .news_box-title {
+      color: $grey;
+      @include ubuntu-med;
+      @include font_h4;
+      &:hover {
+        color: $blue;
+      }
+  }
+
+  .news_link {
+    @extend .news_box-title;
+  }
+
+  .banners {
+    width: 50%;
+    float: right;
+
+    &_title {
+      @include title-font;
+      @include ubuntu-med;
+      color: $grey;
+      padding-top: 60px;
+      padding-bottom: 40px;
+  }
+  }
+
+  .banners_panel {
+    width: 510px;
+    line-height: 40px;
+    background-color: white;
+    color: $grey;
+    margin-bottom: 5px;
+    @include ubuntu-med;
+    border: 1px solid $grey-border;
+    cursor: pointer;
+    background-image: url(../img/plus.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+
+
+
+    &:focus {
+      background-color: $yellow;
+      border: none;
+      color: white;
+      background-image: url(../img/minus.png);
+      background-color: $yellow;
+    }
+
+    &:active {
+      background-color: $yellow;
+      border: none;
+
+    }
+  }
+
+  .banners_text {
+    @include section_text-font;
+  }
+
+
+
+  // .banners_panel .current {
+  //   background-color: $yellow;
+  // }
+  //
+  // .banners_text {
+  //   display: none;
+  // }
