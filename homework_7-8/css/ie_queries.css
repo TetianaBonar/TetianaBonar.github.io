@@ -1,0 +1,89 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+
+.main-nav_link {
+  font-size: 18px;
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.main-nav_link_1 {
+  font-size: 18px;
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.main-nav_item {
+  margin-left: 4%;
+}
+
+.home_link {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 18px;
+
+}
+
+.menu-480_item {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info_link {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+h5 {
+font-family: 'Oswald', Tahoma, sans-serif;
+font-size: 24px;
+}
+
+/*.update_title {
+  font-weight: bolder;
+}
+
+.article_title {
+  font-weight: bolder;
+}*/
+
+.update_link {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 14px;
+  }
+
+.grey_title {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 20px;
+
+}
+
+.footer {
+  padding-top: 10px;
+}
+
+.main-nav--footer .main-nav_link_1 {
+  font-size: 16px;
+}
+
+.main-nav--footer .main-nav_link {
+  font-size: 16px;
+}
+
+}

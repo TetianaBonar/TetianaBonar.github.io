@@ -6,20 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Page</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <!--[if gte IE 8]>
-    <link href="css/iestyles.css" rel="stylesheet" type="text/css"/>
-    <![endif]-->
 
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href="css/media_queries.css" rel="stylesheet" type="text/css">
+    <link href="css/ie_queries.css" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 8]>
+    <link href="css/iestyles.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if IE 8]>
+    <link href="css/ie8styles.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+  document.createElement('header');
+  document.createElement('section');
+  document.createElement('article');
+  document.createElement('figure');
+  document.createElement('aside');
+  document.createElement('nav');
+  document.createElement('footer');
+</script>
 
   </head>
   <body>
     <div class="grid">
 
     <header>
+
 
      <div class="upper-menu">
       <h1><a href="#"><img src="img/logo.png" alt="logo" /><img src="img/logo1.png" alt="" /></a></h1>
@@ -78,6 +96,7 @@
      </div>
 
     </header>
+
  <div class="container">
 
     <div class="purple">
@@ -109,8 +128,9 @@
               </p>
                 <a class="info_link" href="#">READ MORE</a>
       </section>
-      </div>
+
     </div>
+  </div>
 
     <div class="white">
       <div class="articles">
@@ -157,7 +177,7 @@
          <img class="logos_image5" src="img/logo_5.png" alt="" />
          <img class="logos_image6" src="img/logo_6.png" alt="" />
 
-         <!-- <img class="logos_images" src="img/logos.png" alt="logos" /> -->
+
        </div>
      </div>
 
