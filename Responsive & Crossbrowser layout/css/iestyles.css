@@ -1,0 +1,154 @@
+
+
+.main-nav_link {
+  font-size: 18px;
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.main-nav_link_1 {
+  font-size: 18px;
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.main-nav_item {
+  margin-left: 4%;
+}
+
+.home_link {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 18px;
+
+}
+
+.menu-480_item {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 50px;
+
+}
+
+h3 {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info_link {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+h5 {
+font-family: 'Oswald', Tahoma, sans-serif;
+font-size: 24px;
+}
+
+/*.update_title {
+  font-weight: bolder;
+}
+
+.article_title {
+  font-weight: bolder;
+}*/
+
+.update_link {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 14px;
+  }
+
+.grey_title {
+  font-family: 'Oswald', Tahoma, sans-serif;
+  font-size: 20px;
+
+}
+
+.footer {
+  padding-top: 10px;
+}
+
+.main-nav--footer .main-nav_link_1 {
+  font-size: 16px;
+}
+
+.main-nav--footer .main-nav_link {
+  font-size: 16px;
+}
+
+@media (max-width: 959px) {
+  .promo_ad {
+    margin-top: 15%;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .article_title {
+    padding-left: 15%;
+  }
+
+  .update_title {
+    font-size: 22px;
+  }
+
+  .grey_title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 13px;
+  }
+
+  .article_title {
+    font-size: 20px;
+  }
+
+  .update_title {
+    font-size: 20px;
+  }
+
+  .grey_title {
+    font-size: 18px;
+  }
+
+  .main-nav--footer .main-nav_link_1 {
+    font-size: 14px;
+  }
+
+  .main-nav--footer .main-nav_link {
+    font-size: 14px;
+  }
+}
+
+ @media (max-width: 479px) {
+    .article_title {
+      font-size: 16px;
+    }
+
+       
+ }
