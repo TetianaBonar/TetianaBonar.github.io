@@ -1,0 +1,45 @@
+
+                                                      /*FOOTER */
+$link-font: Arial, Tahoma, sans-serif;
+$grey: #2a2d32;
+
+  .footer-wrapper {
+    width: 100%;
+    background-color: $grey;
+  }
+
+ .footer {
+   @include position;
+   height: 325px;
+ }
+
+ .footer_section {
+   width: 22%;
+   color: $light-grey;
+   float: left;
+   margin-right: 3%;
+ }
+
+.footer_section-title {
+  color: white;
+  @include ubuntu-med;
+  font-size: 16px;
+  margin: 60px 0 40px;
+}
+
+.footer_item {
+  border-bottom: 1px solid $light-grey;
+  &:last-child {
+  border-bottom: none;
+  }
+}
+
+.footer_link {
+  color: $light-grey;
+  font-family: $link-font;
+  line-height: 36px;
+  font-size: 13px;
+   &:hover {
+     color: $blue;
+   }
+}

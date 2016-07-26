@@ -1,0 +1,75 @@
+
+@mixin position {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+$grey: #2a2d32;
+$light-grey: #8a8a8a;
+$yellow: #f4b60d;
+
+$link-font: Arial, Tahoma, sans-serif;
+
+@mixin title-font {
+  font-size: 24px;
+  line-height: 20px;
+}
+
+@mixin ubuntu-med{
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 500;
+  }
+
+.services-wrapper {
+  width: 100%;
+  background-color: $grey;
+  height: 500px;
+}
+
+.services {
+  clear: both;
+  @include position;
+  }
+
+.services_title {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: white;
+  @include title-font;
+  @include ubuntu-med;
+}
+
+.services-figure {
+  float: left;
+  margin-right: 38px;
+  position: relative;
+}
+
+.last {
+  margin-right: 0;
+}
+
+.services_text {
+  padding-top: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  @include ubuntu-med;
+}
+
+.active_caption {
+    color: $yellow;
+}
+
+ .active_image{
+    //  background: rgba(36, 140, 236, 0.5);
+ }
+
+ .hover_image {
+   position: absolute;
+   top: 0;
+   width: 262px;
+  opacity: 0.9;
+  display: none;
+}

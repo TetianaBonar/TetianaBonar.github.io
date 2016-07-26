@@ -1,0 +1,32 @@
+
+$footer-grey: #35383c;
+$light-grey: #8a8a8a;
+$link-font: Arial, Tahoma, sans-serif;
+
+@mixin position {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.company_info-wrapper {
+  width: 100%;
+  background-color: $footer-grey;
+  height: 60px;
+}
+
+.company_info {
+  @include position;
+  font-size: 12px;
+  line-height: 20px;
+  color: $light-grey;
+  font-family: $link-font;
+}
+
+.contacts_item {
+  float: left;
+  margin-right: 30px;
+}
+
+.copyright {
+  float: right;
+}
